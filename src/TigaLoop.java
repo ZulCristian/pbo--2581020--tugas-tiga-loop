@@ -35,5 +35,17 @@ public class TigaLoop {
         } while (c <= n);
         System.out.println();
 
+        System.out.println();
+
+        int kurang = 0;
+        for (int i = 1; i < n; i++) {
+            kurang++;
+        }
+
+        int kurangSama = 0;
+        for (int i = 1; i <= n; i++) {
+            kurangSama++;
+        }
+
     }
 }
